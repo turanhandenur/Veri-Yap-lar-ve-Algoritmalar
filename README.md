@@ -1,2 +1,2 @@
-# Veri-Yap-lar-ve-Algoritmalar
+# VeriYapılarıVeAlgoritmalar
 ODTÜ Yazılıma Başlangıç Patikası Proje Ödevleri
