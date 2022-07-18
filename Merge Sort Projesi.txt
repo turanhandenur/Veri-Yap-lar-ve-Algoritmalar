@@ -1,0 +1,21 @@
+Proje 2
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Big-O gösterimini yazınız.
+
+[16, 21, 11, 8, 12, 22] dizisinin Merge Sort'a göre adımları;
+
+* Diziyi tek eleman kalacak şekilde her seferinde yarıdan böleceğiz. Yarıdan bölünemecek durumlarda sol taafa ya da sağ tarafa kalan elemanı ekleyebiliriz.
+-->[16,21,11] ____ [8,12,22]
+-->[16,21]__[11] ____ [8,12]__[22]
+-->[16]__[21]__[11]____[8]__[12]__[22]
+
+*Şimdi böldüğümüz elemanları en küçükleri öne yazacak şekilde yeniden birleştiriyoruz.
+-->[16,21]__[11]____[8,12]__[22]
+-->[11,16,21]____[8,12,22]
+-->[8,11,12,16,21,22]
+
+
+Big-O notation: 
+O(n * log n)
